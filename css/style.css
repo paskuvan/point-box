@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'geomanistbold';
+  src: url('../fonts/geomanist/geomanist_bold-webfont.woff2') format('woff2'), url('../fonts/geomanist/geomanist_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'geomanist_regularregular';
+  src: url('../fonts/geomanist/geomanist_regular-webfont.woff2') format('woff2'), url('../fonts/geomanist/geomanist_regular-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'geomanist_regularregular', 'Open Sans', sans-serif;
+}
+.logo-cla {
+  width: 228px;
+  height: auto;
+  display: block;
+  margin: 20px;
+}
+h1 {
+  color: #0076a9;
+  margin: 0 30px;
+  font-size: 30px;
+  padding: 40px 0px 0 0;
+}
+h3 {
+  color: #4f5858;
+}
+.bajada {
+  color: #4f5858;
+  font-size: 18px;
+  margin: 30px;
+}
+.text-center {
+  text-align: center;
+}
+.text-nom {
+  color: #4f5858;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  padding: 0 0 12px 0;
+  margin: 0;
+}
+.sub {
+  padding: 10px 0;
+}
+.file-upload input[type='file'] {
+  display: none;
+}
+.rounded-pill {
+  border-radius: 5px;
+}
+.btn {
+  padding: 12px 24px;
+}
+
+@media (max-width: 768px) {
+
+}
