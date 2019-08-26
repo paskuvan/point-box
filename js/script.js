@@ -7,7 +7,7 @@ $(document).ready(function(){
       success:function(data)
       {
        var nomina_data = data.split(/\r?\n|\r/);
-       var table_data = '<table class="table table-hover">';
+       var table_data = '<table class="table table-bordered table-hover">';
        for(var count = 0; count<nomina_data.length; count++)
        {
         var cell_data = nomina_data[count].split(",");
